@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TarasHP/static/css/main.029b8760.css",
+    "main.js": "/TarasHP/static/js/main.3473181e.js",
+    "static/media/classic-hookah-beautiful-colored-rays-light-smoke-concept-hookah-smoking.jpg": "/TarasHP/static/media/classic-hookah-beautiful-colored-rays-light-smoke-concept-hookah-smoking.2b990ac53f5a179eab2c.jpg",
+    "static/media/Background-photo.jpg": "/TarasHP/static/media/Background-photo.39b2f17516d5b0b8ca14.jpg",
+    "static/media/Logo.png": "/TarasHP/static/media/Logo.597f339f01eeedd783e4.png",
+    "static/media/msg795295778-225770.jpg": "/TarasHP/static/media/msg795295778-225770.5979e2f1187daf3f87c1.jpg",
+    "static/media/msg795295778-225768.jpg": "/TarasHP/static/media/msg795295778-225768.224d4e04e1591611e862.jpg",
+    "static/media/msg795295778-225764.jpg": "/TarasHP/static/media/msg795295778-225764.79361c32743968403fed.jpg",
+    "index.html": "/TarasHP/index.html",
+    "main.029b8760.css.map": "/TarasHP/static/css/main.029b8760.css.map",
+    "main.3473181e.js.map": "/TarasHP/static/js/main.3473181e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.029b8760.css",
+    "static/js/main.3473181e.js"
+  ]
+}
