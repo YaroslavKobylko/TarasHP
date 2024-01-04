@@ -1,0 +1,78 @@
+.svghookah{
+  width: 200px;
+}
+
+.main-aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding: 50px 50px 150px 50px;
+    height: 100vh;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-heading {
+    padding-top: 28px;
+    font-size: 64px;
+    font-weight: 700;
+    color: orange;
+  }
+  
+  .sub-heading {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: whitesmoke;
+    line-height: 1.6;
+    max-width: 800px;
+  }
+
+  @media (max-width: 992px){
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        padding: 20px 20px 64px 20px;
+        height: 100vh;
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .main-heading {
+        padding-top: 16px;
+        font-size: 32px;
+        font-weight: 700;
+        color: orange;
+      }
+      
+      .sub-heading {
+        padding-top: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        color: whitesmoke;
+        line-height: 1.6;
+        max-width: 800px;
+      }
+
+      .main-aboutus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .svghookah{
+      width: 150px;
+    }
+}

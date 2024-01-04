@@ -1,0 +1,180 @@
+.contacts-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.contacts-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, #1c0072 0%, #30137e 25%, #3d2a7e 51%, #2a1662 100%);
+  animation: AnimateBG 10s ease infinite;
+  z-index: 0;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contacts-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-img-container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logocontacts-img {
+  max-width: 50%;
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+}
+
+.contacts-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-block {
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #7d4cdb;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-block:hover {
+  transform: scale(1.1);
+}
+
+.contact-block a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.self-pickup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px; /* збільште висоту блока за потребою */
+  background-color: rgba(255, 255, 255, 0.8); /* Прозорий білий фон */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #7d4cdb; /* кастомний колір тексту */
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.self-pickup:hover {
+  background-color: #7d4cdb; /* новий колір фону при наведенні миші */
+  color: #fff; /* колір тексту при наведенні миші */
+}
+
+.telegram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #0088cc;
+  transition: background-color 0.3s ease;
+}
+
+.telegram:hover {
+  background-color: #0088cc;
+  color: #fff;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #bc2a8d;
+  transition: background-color 0.3s ease;
+}
+
+.instagram:hover {
+  background-color: #bc2a8d;
+  color: #fff;
+}
+
+.phone-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #e44d26;
+  transition: background-color 0.3s ease;
+}
+
+.phone-number:hover {
+  background-color: #e44d26;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact-block {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .contact-block {
+    width: 80%;
+  }
+
+  .contacts-container {
+    height: auto;
+  }
+
+  .phone-number {
+    margin-bottom: 100px;
+  }
+}

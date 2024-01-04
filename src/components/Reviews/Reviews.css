@@ -1,0 +1,76 @@
+.reviews-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('classic-hookah-beautiful-colored-rays-light-smoke-concept-hookah-smoking.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+.reviews-heading{
+    padding-bottom: 52px;
+    font-size: 38px;
+    color: white;
+}
+
+  .pic-ctn {
+    position: relative;
+    width: 480px;
+    height: 880px;
+    overflow: hidden;
+  }
+  
+  .pic-ctn > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0; /* Початково приховуємо всі фотографії */
+    transition: opacity 1s ease-in-out; /* Додаємо плавний перехід для зміни прозорості */
+  }
+  
+  .pic-ctn > img.active {
+    opacity: 1;
+  }
+  
+  .pic-ctn > img.hidden {
+    display: none;
+  }
+
+  @media (max-width: 992px){
+    .reviews-container {
+        height: 720px;
+
+      }
+      
+    .reviews-heading{
+        padding-bottom: 52px;
+        font-size: 22px;
+        color: white;
+    }
+    
+      .pic-ctn {
+        position: relative;
+        width: 256px;
+        height: 480px;
+        overflow: hidden;
+      }
+      
+      .pic-ctn > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0; /* Початково приховуємо всі фотографії */
+        transition: opacity 1s ease-in-out; /* Додаємо плавний перехід для зміни прозорості */
+      }
+      
+      .pic-ctn > img.active {
+        opacity: 1;
+      }
+      
+      .pic-ctn > img.hidden {
+        display: none;
+      }
+}
